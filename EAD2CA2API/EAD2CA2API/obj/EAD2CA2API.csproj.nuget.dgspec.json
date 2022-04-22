@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\College Work\\Year 4\\EADCA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {}
+    "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {}
   },
   "projects": {
-    "C:\\College Work\\Year 4\\EADCA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {
+    "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\College Work\\Year 4\\EADCA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
+        "projectUniqueName": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
         "projectName": "EAD2CA2API",
-        "projectPath": "C:\\College Work\\Year 4\\EADCA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
+        "projectPath": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
         "packagesPath": "C:\\Users\\lukem\\.nuget\\packages\\",
-        "outputPath": "C:\\College Work\\Year 4\\EADCA2\\EAD2CA2API\\EAD2CA2API\\obj\\",
+        "outputPath": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
