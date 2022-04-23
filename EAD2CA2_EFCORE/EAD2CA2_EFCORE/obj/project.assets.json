@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aaron\\source\\repos\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE.csproj",
+      "projectUniqueName": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE.csproj",
       "projectName": "EAD2CA2_EFCORE",
-      "projectPath": "C:\\Users\\Aaron\\source\\repos\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE.csproj",
+      "projectPath": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE.csproj",
       "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aaron\\source\\repos\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\obj\\",
+      "outputPath": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2_EFCORE\\EAD2CA2_EFCORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
