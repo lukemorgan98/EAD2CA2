@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {}
+    "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {}
   },
   "projects": {
-    "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {
+    "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
         "projectName": "EAD2CA2API",
-        "projectPath": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
-        "packagesPath": "C:\\Users\\lukem\\.nuget\\packages\\",
-        "outputPath": "C:\\College Work\\Year 4\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\obj\\",
+        "projectPath": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\EAD2CA2API.csproj",
+        "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
