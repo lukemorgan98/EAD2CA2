@@ -3,6 +3,9 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:EAD2CA2APIContext"
+    },
+    "apis1": {
+      "type": "apis"
     }
   }
 }
