@@ -43,7 +43,7 @@ namespace EAD2CA2_EFCORE
             // c:\users\Aaron\electronicDB1.mdf
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                optionsBuilder.UseSqlServer(@"Server = tcp:ead2server.database.windows.net, 1433; Initial Catalog = EAD2_DB; Persist Security Info = False; User ID = ead_admin; Password ={Semester8 }; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;") ;
+                optionsBuilder.UseSqlServer(@"Server=tcp:ead2ca2sn.database.windows.net,1433;Initial Catalog=EAD2_CA2_DB;Persist Security Info=False;User ID=ead_admin;Password=Semester8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;") ;
             }
 
             public DbSet<Seller> Sellers { get; set; }
