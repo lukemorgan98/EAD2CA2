@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="116dp"
         android:layout_marginTop="508dp"
-        android:text="@string/showClothesButton"
+        android:text="@string/showElectronicsButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginTop="156dp"
-        android:text="@string/searchButtonText"
+        android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />

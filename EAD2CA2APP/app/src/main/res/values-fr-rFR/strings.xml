@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EAD2CA2</string>
+    <string name="searchText">recherche par marque</string>
+    <string name="showElectronicsButton">exposition électronique</string>
+    <string name="nextPageButton">page vendeur</string>
+    <string name="languageSelected">FR</string>
+    <string name="searchButtonText">"recherche "</string>
+</resources>

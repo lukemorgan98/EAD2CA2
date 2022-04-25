@@ -33,7 +33,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private TextView mTextViewResult;
-    public static final String[] languages ={"Lang","Eng","Ger"};
+    public static final String[] languages ={"Lang","Eng","FRA"};
     private RequestQueue mQueue;
     private Button button_seller;
     private Button search_button;
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 String selectedLang = adapterView.getItemAtPosition(i).toString();
                 if(selectedLang.equals("Eng")){
                     setLocal(MainActivity.this,"en");
-                    buttonParse.setText("Show Clothes");
+                    buttonParse.setText("Show Electronics");
                     button_seller.setText("Seller Page");
                     search_button.setText("Search");
                     search_bar.setHint("Search by Brand");
@@ -102,10 +102,10 @@ public class MainActivity extends AppCompatActivity {
                     buttonParse.setText("TEST");
 //                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
 //                    startActivity(intent);
-                    buttonParse.setText("Kleidung Zeigen");
-                    button_seller.setText("Verkäuferseite");
-                    search_button.setText("Suche");
-                    search_bar.setHint("Suche nach Marke ");
+                    buttonParse.setText("exposition électronique");
+                    button_seller.setText("page vendeur");
+                    search_button.setText("recherche");
+                    search_bar.setHint("recherche par marque");
                 }
                 else {
                     Toast.makeText(MainActivity.this, "Please select a Language", Toast.LENGTH_SHORT).show();
@@ -157,10 +157,10 @@ public class MainActivity extends AppCompatActivity {
 
                                 //Loop the Array
                                 JSONObject electronic;
-                                if(searchWord[0].toLowerCase().contains("nike")) {
+                                if(searchWord[0].toLowerCase().contains("apple")) {
 
                                     for (int i = 0; i < 3; i++) {
-                                        electronic = response.getJSONObject(1);
+                                        electronic = response.getJSONObject(0);
                                         int ID = electronic.getInt("id");
                                         String Name = electronic.getString("name");
                                         double Price = electronic.getInt("price");
@@ -182,7 +182,26 @@ public class MainActivity extends AppCompatActivity {
                                                 ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
                                     }
                                 }
-                                else if(searchWord[0].toLowerCase().contains("converse")) {
+
+                                else if(searchWord[0].toLowerCase().contains("microsoft")) {
+
+                                    for (int i = 0; i < 1; i++) {
+                                        electronic = response.getJSONObject(1);
+                                        int ID = electronic.getInt("id");
+                                        String Name = electronic.getString("name");
+                                        double Price = electronic.getInt("price");
+                                        String brandName = electronic.getString("brandName");
+                                        String size = electronic.getString("size");
+                                        String colour = electronic.getString("colour");
+                                        int SellerID = electronic.getInt("sellerID");
+                                        output = String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Price) + ", " + brandName +
+                                                ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
+                                    }
+                                }
+
+
+
+                                else if(searchWord[0].toLowerCase().contains("sony")) {
 
                                     for (int i = 0; i < 1; i++) {
                                         electronic = response.getJSONObject(2);
@@ -197,61 +216,7 @@ public class MainActivity extends AppCompatActivity {
                                                 ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
                                     }
                                 }
-
-                                else if(searchWord[0].toLowerCase().contains("tommy hilfiger")
-                                        ||searchWord[0].toLowerCase().contains("hilfiger")
-                                        ||searchWord[0].toLowerCase().contains("tommy")) {
-
-                                    for (int i = 0; i < 1; i++) {
-                                        electronic = response.getJSONObject(0);
-                                        int ID = electronic.getInt("id");
-                                        String Name = electronic.getString("name");
-                                        double Price = electronic.getInt("price");
-                                        String brandName = electronic.getString("brandName");
-                                        String size = electronic.getString("size");
-                                        String colour = electronic.getString("colour");
-                                        int SellerID = electronic.getInt("sellerID");
-                                        output = String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Price) + ", " + brandName +
-                                                ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
-                                    }
-                                }
-
-                                else if(searchWord[0].toLowerCase().contains("the north face")
-                                        ||searchWord[0].toLowerCase().contains("north face")
-                                        ||searchWord[0].toLowerCase().contains("north")
-                                        ||searchWord[0].toLowerCase().contains("the")
-                                        ||searchWord[0].toLowerCase().contains("face")) {
-
-                                    for (int i = 0; i < 1; i++) {
-                                        electronic = response.getJSONObject(4);
-                                        int ID = electronic.getInt("id");
-                                        String Name = electronic.getString("name");
-                                        double Price = electronic.getInt("price");
-                                        String brandName = electronic.getString("brandName");
-                                        String size = electronic.getString("size");
-                                        String colour = electronic.getString("colour");
-                                        int SellerID = electronic.getInt("sellerID");
-                                        output = String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Price) + ", " + brandName +
-                                                ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
-                                    }
-                                }
-
-                                else if(searchWord[0].toLowerCase().contains("jordan")) {
-
-                                    for (int i = 0; i < 1; i++) {
-                                        electronic = response.getJSONObject(5);
-                                        int ID = electronic.getInt("id");
-                                        String Name = electronic.getString("name");
-                                        double Price = electronic.getInt("price");
-                                        String brandName = electronic.getString("brandName");
-                                        String size = electronic.getString("size");
-                                        String colour = electronic.getString("colour");
-                                        int SellerID = electronic.getInt("sellerID");
-                                        output = String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Price) + ", " + brandName +
-                                                ", " + size + ", " + colour + ", " + String.valueOf(SellerID) + "\n\n";
-                                    }
-                                }
-                                else if(searchWord[0].toLowerCase().contains("superdry")) {
+                                else if(searchWord[0].toLowerCase().contains("")) {
 
                                     for (int i = 0; i < 1; i++) {
                                         electronic = response.getJSONObject(6);

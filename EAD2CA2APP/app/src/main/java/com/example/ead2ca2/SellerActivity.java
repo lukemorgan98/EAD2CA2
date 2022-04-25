@@ -92,15 +92,15 @@ public class SellerActivity extends AppCompatActivity {
                 String selectedLang = adapterView.getItemAtPosition(i).toString();
                 if (selectedLang.equals("Eng")) {
                     setLocal(SellerActivity.this, "en");
-                    buttonParse.setText("Show Clothes");
+                    buttonParse.setText("Show Electronics");
                     search_button.setText("Search");
                     search_bar.setHint("Search by Brand");
-                } else if (selectedLang.equals("Ger")) {
-                    setLocal(SellerActivity.this, "de");
+                } else if (selectedLang.equals("FRA")) {
+                    setLocal(SellerActivity.this, "fr");
                     buttonParse.setText("TEST");
-                    buttonParse.setText("Kleidung Zeigen");
-                    search_button.setText("Suche");
-                    search_bar.setHint("Suche nach Marke ");
+                    buttonParse.setText("exposition électronique");
+                    search_button.setText("recherche");
+                    search_bar.setHint("recherche par marque ");
                 } else {
                     Toast.makeText(SellerActivity.this, "Please select a Language", Toast.LENGTH_SHORT).show();
 
@@ -137,7 +137,7 @@ public class SellerActivity extends AppCompatActivity {
         searchWord[0] = String.valueOf(in);
 
         if(in != null){
-            url = "https://ead2ca2api.azurewebsites.net/api/Sellers/";
+            url = "https://ead2ca2api20220425024150.azurewebsites.net/api/Sellers";
             JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null,
                     new Response.Listener<JSONArray>() {
                         @Override
@@ -150,7 +150,7 @@ public class SellerActivity extends AppCompatActivity {
 
                                 //Loop the Array
                                 JSONObject seller;
-                                if(searchWord[0].toLowerCase().contains("aaron")) {
+                                if(searchWord[0].toLowerCase().contains("currys")) {
 
 
                                     for (int i = 0; i < 1; i++) {
@@ -159,26 +159,12 @@ public class SellerActivity extends AppCompatActivity {
                                         String Name = seller.getString("name");
                                         String Location = seller.getString("location");
                                         int Rating = seller.getInt("rating");
-                                        int ClothesSold = seller.getInt("clothesSold");
+                                        int ElectronicsSold = seller.getInt("electronicsSold");
                                         output=String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
-                                                String.valueOf(Rating)  + ", "  + String.valueOf(ClothesSold) +"\n\n";
+                                                String.valueOf(Rating)  + ", "  + String.valueOf(ElectronicsSold) +"\n\n";
                                     }
                                 }
-                                else if(searchWord[0].toLowerCase().contains("toba")) {
-
-                                    for (int i = 0; i < 1; i++) {
-                                        seller = response.getJSONObject(1);
-                                        int ID = seller.getInt("id");
-                                        String Name = seller.getString("name");
-                                        String Location = seller.getString("location");
-                                        int Rating = seller.getInt("rating");
-                                        int ClothesSold = seller.getInt("clothesSold");
-                                        output=String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
-                                                String.valueOf(Rating)  + ", "  + String.valueOf(ClothesSold) +"\n\n";
-                                    }
-                                }
-
-                                else if(searchWord[0].toLowerCase().contains("dave")) {
+                                else if(searchWord[0].toLowerCase().contains("D.I.D")) {
 
                                     for (int i = 0; i < 1; i++) {
                                         seller = response.getJSONObject(2);
@@ -186,9 +172,23 @@ public class SellerActivity extends AppCompatActivity {
                                         String Name = seller.getString("name");
                                         String Location = seller.getString("location");
                                         int Rating = seller.getInt("rating");
-                                        int ClothesSold = seller.getInt("clothesSold");
+                                        int ElectronicsSold = seller.getInt("electronicsSold");
                                         output=String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
-                                                String.valueOf(Rating)  + ", "  + String.valueOf(ClothesSold) +"\n\n";
+                                                String.valueOf(Rating)  + ", "  + String.valueOf(ElectronicsSold) +"\n\n";
+                                    }
+                                }
+
+                                else if(searchWord[0].toLowerCase().contains("harvey normans")) {
+
+                                    for (int i = 0; i < 1; i++) {
+                                        seller = response.getJSONObject(3);
+                                        int ID = seller.getInt("id");
+                                        String Name = seller.getString("name");
+                                        String Location = seller.getString("location");
+                                        int Rating = seller.getInt("rating");
+                                        int ElectronicsSold = seller.getInt("electronicsSold");
+                                        output=String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
+                                                String.valueOf(Rating)  + ", "  + String.valueOf(ElectronicsSold) +"\n\n";
                                     }
                                 }
 
@@ -226,9 +226,9 @@ public class SellerActivity extends AppCompatActivity {
                                     String Name = seller.getString("name");
                                     String Location = seller.getString("location");
                                     int Rating = seller.getInt("rating");
-                                    int ClothesSold = seller.getInt("clothesSold");
+                                    int ElectronicsSold = seller.getInt("electronicsSold");
                                     output=String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
-                                            String.valueOf(Rating)  + ", "  + String.valueOf(ClothesSold) +"\n\n";
+                                            String.valueOf(Rating)  + ", "  + String.valueOf(ElectronicsSold) +"\n\n";
 
                                     mTextViewResult.append(output);
 
@@ -269,11 +269,11 @@ public class SellerActivity extends AppCompatActivity {
                                 String Name = seller.getString("name");
                                 String Location = seller.getString("location");
                                 int Rating = seller.getInt("rating");
-                                int ClothesSold = seller.getInt("clothesSold");
+                                int ElectronicsSold = seller.getInt("electronicsSold");
 
                                 if(getButtonClicked=true){
                                     mTextViewResult.append(String.valueOf(ID) + ", " + Name + ", " + String.valueOf(Location) + ", " +
-                                            String.valueOf(Rating)  + ", "  + String.valueOf(ClothesSold) +"\n\n");
+                                            String.valueOf(Rating)  + ", "  + String.valueOf(ElectronicsSold) +"\n\n");
                                 }
 
                             }
