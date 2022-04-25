@@ -33,7 +33,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private TextView mTextViewResult;
-    public static final String[] languages ={"Lang","Eng","FRA"};
+    public static final String[] languages ={"Lang","Eng","Fra"};
     private RequestQueue mQueue;
     private Button button_seller;
     private Button search_button;
@@ -97,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
 //                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
 //                    startActivity(intent);
                 }
-                else if(selectedLang.equals("Ger")){
-                    setLocal(MainActivity.this, "de");
+                else if(selectedLang.equals("Fra")){
+                    setLocal(MainActivity.this, "fr");
                     buttonParse.setText("TEST");
 //                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
 //                    startActivity(intent);

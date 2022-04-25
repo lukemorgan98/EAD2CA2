@@ -34,7 +34,7 @@ import java.util.Locale;
 public class SellerActivity extends AppCompatActivity {
     //Variables for the program
     private TextView mTextViewResult;
-    public static final String[] languages ={"Lang","Eng","Ger"};
+    public static final String[] languages ={"Lang","Eng","Fra"};
     private RequestQueue mQueue;
     private boolean getButtonClicked = false;
     private FloatingActionButton  backButton;
@@ -95,7 +95,7 @@ public class SellerActivity extends AppCompatActivity {
                     buttonParse.setText("Show Electronics");
                     search_button.setText("Search");
                     search_bar.setHint("Search by Brand");
-                } else if (selectedLang.equals("FRA")) {
+                } else if (selectedLang.equals("Fra")) {
                     setLocal(SellerActivity.this, "fr");
                     buttonParse.setText("TEST");
                     buttonParse.setText("exposition électronique");

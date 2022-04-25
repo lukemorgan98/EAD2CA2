@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">EAD2CA2</string>
     <string name="searchText">Search by Brand</string>
+    <string name="searchButtonText">Search</string>
     <string name="showElectronicsButton">Show Electronics</string>
     <string name="nextPageButton">Seller Page</string>
     <string name="languageSelected">EN</string>
-    <string name="searchButtonText">Search</string>
+
 </resources>
