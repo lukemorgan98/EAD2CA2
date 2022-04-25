@@ -11,5 +11,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>EAD2CA2API.Data.EAD2CA2APIContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
+    <NameOfLastUsedPublishProfile>EAD2CA2API20220425024150 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

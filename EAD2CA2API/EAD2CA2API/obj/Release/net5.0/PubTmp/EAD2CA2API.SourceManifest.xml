@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Release\net5.0\PubTmp\EFSQLScripts\EAD2CA2API.Data.EAD2CA2APIContext.sql" />
+</sitemanifest>
