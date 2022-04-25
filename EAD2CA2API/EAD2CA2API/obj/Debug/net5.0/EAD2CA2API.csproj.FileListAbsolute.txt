@@ -139,7 +139,6 @@ C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\E
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\EAD2CA2API.runtimeconfig.json
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\EAD2CA2API.runtimeconfig.dev.json
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\EAD2CA2API.dll
-C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\ref\EAD2CA2API.dll
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\EAD2CA2API.pdb
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -266,3 +265,4 @@ C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Debug\net5.0\E
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Debug\net5.0\ref\EAD2CA2API.dll
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Debug\net5.0\EAD2CA2API.pdb
 C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Debug\net5.0\EAD2CA2API.genruntimeconfig.cache
+C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\obj\Debug\net5.0\refint\EAD2CA2API.dll
