@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATiCCnI4IjkiJ+cqTq+drRAAAAAACAAAAAAAQZgAAAAEAACAAAAC4QddiobF8oBpYebbnvE546daEy0V9+G+zFMuLFi9tWQAAAAAOgAAAAAIAACAAAAAq1Adlw5SjYZDk9AOn4j9BdgmTU7hhXTj+7VIhg1akhoAAAADdn57QkPip1RAIRIJV/PuhyN2CMO3dGD39Dg8HiUoRLpiD2VGNwNEhD3+OkmGC+f/d/ngBZbPBG5ONI9pZqDJOJXYrjYB4nS7tIQaDNLYJLJLYUTBSO1TWZl0c2UG81eg7JxXFOdiXVlw+k3xGb5SgKgvyiqvfSVq21bqk1SLes0AAAADu2UY16O9D0HHDLkCQ32OdNV3CevetRewYWuhNJ4TTkPH/K39HfFc1ecloU8/7grxC84aPMsRMAl5S4ycIGI73</EncryptedPassword>
+    <History>True|2022-04-25T02:24:41.8290796Z;True|2022-04-25T03:21:13.3225348+01:00;False|2022-04-25T03:20:14.7809051+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="EAD2CA2API.Data.EAD2CA2APIContext">
+      <Value>Data Source=tcp:ead2ca2.database.windows.net,1433%3bInitial Catalog=EAD2CA2%3bUser Id=EADAdmin%40ead2ca2%3bPassword=Semester8</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
