@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="EAD2CA2API20220425024150" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
-  </parameter>
-  <parameter name="EAD2CA2API.Data.EAD2CA2APIContext" description="" value="Data Source=tcp:ead2ca2.database.windows.net,1433;Initial Catalog=EAD2CA2;User Id=EADAdmin@ead2ca2;Password=Semester8" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Aaron\\Documents\\GitHub\\EAD2CA2\\EAD2CA2API\\EAD2CA2API\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\EAD2CA2API\.Data\.EAD2CA2APIContext\.sql$" />
-  </parameter>
-</parameters>

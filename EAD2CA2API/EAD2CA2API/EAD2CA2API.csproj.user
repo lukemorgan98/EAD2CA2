@@ -11,10 +11,5 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>EAD2CA2API.Data.EAD2CA2APIContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\Aaron\Documents\GitHub\EAD2CA2\EAD2CA2API\EAD2CA2API\Properties\PublishProfiles\EAD2CA2API20220425024150 - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
-    <ActiveDebugProfile>EAD2CA2API</ActiveDebugProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
